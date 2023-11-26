@@ -13,7 +13,8 @@ namespace Tyuiu.ShpilevayaAS.Sprint5.Task7.V9.Lib
         public string LoadDataAndSave(string path)
         {
 
-            string pathSaveFile = @"C:\Users\katri\source\repos\Tyuiu.ShpilevayaAS.Sprint5\Tyuiu.ShpilevayaAS.Sprint5.Task7.V9\bin\Debug";
+            string pathSaveFile = $@"{Directory.GetCurrentDirectory()}\OutPutDataFileTask7V9.txt";
+
             FileInfo fileInfo = new FileInfo(pathSaveFile);
             bool fileExists = fileInfo.Exists;
 

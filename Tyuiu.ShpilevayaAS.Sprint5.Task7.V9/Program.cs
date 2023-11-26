@@ -32,7 +32,8 @@ namespace Tyuiu.ShpilevayaAS.Sprint5.Task7.V9
             Console.WriteLine("***************************************************************************");
 
             string path = @"C:\DataSprint5\InPutDataFileTask7V9.txt";
-            string pathSaveFile = @"C:\Users\katri\source\repos\Tyuiu.ShpilevayaAS.Sprint5\Tyuiu.ShpilevayaAS.Sprint5.Task7.V9\bin\Debug";
+
+            string pathSaveFile = $@"{Directory.GetCurrentDirectory()}\OutPutDataFileTask7V9.txt";
 
             Console.WriteLine("****************************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                           *");
