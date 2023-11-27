@@ -24,7 +24,7 @@ namespace Tyuiu.ShpilevayaAS.Sprint5.Task7.V9
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Дан файл С:DataSprint5InPutDataFileTask7V9.txt (файл взять из архива    *");
             Console.WriteLine("* согласно вашему варианту. Создать папку в ручную С:DataSprint5 и копир. *");
-            Console.WriteLine("* в неё файл) в котором есть набор символоьных данных.                    *");
+            Console.WriteLine("* в неё файл) в котором есть набор символьных данных.                     *");
             Console.WriteLine("* Удалить все заглавные латинские буквы из файла.                         *");
             Console.WriteLine("* Полученный результат сохранить в файл OutPutDataFileTask7V9.txt.        *");
             Console.WriteLine("***************************************************************************");
@@ -34,6 +34,7 @@ namespace Tyuiu.ShpilevayaAS.Sprint5.Task7.V9
             string path = @"C:\DataSprint5\InPutDataFileTask7V9.txt";
 
             string pathSaveFile = $@"{Directory.GetCurrentDirectory()}\OutPutDataFileTask7V9.txt";
+
 
             Console.WriteLine("****************************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                           *");
